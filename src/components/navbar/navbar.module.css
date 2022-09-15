@@ -1,0 +1,44 @@
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 4.7rem;
+  position: fixed;
+  background-color: #000000ee;
+  z-index: 100;
+  margin-bottom: 20rem;
+  top: 0;
+}
+
+.container img{
+  width: 3.5rem;
+  height: auto;
+}
+
+.menu{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu li{
+  margin-right: 0.2rem;
+  transition: all 600ms ease;
+  padding: 1rem 0.9rem;
+  border-radius: 4px;
+}
+
+.menu a{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.menu li:last-child{
+  margin-right: 0;
+}
+
+.menu li:hover{
+  color: #000;
+  background-color: #9ef0f0;
+}

@@ -1,0 +1,106 @@
+.header{
+  background: rgba(0, 0, 0, 0.55) url(./assets/ChandelierGraffitiLogo.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom bottom;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+
+.title{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.title p{
+  margin: 0;
+  font-size: 1.5rem;
+}
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* transform-origin: 0px 100%;
+  transition: all 300ms;
+  transform: translateX(300px); */
+}
+
+.container{
+  margin-top: 2rem;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  place-items: center;
+}
+
+.prueba {
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.6) url(./assets/cic.jpg);
+  height: 20rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.organizadores{
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  padding: 17px 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #1197cc;
+  box-shadow: #094c66 4px 4px 0px;
+  border-radius: 8px;
+  transition: transform 250ms, box-shadow 250ms;
+  text-align: center;
+}
+
+.boton:active{
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #094c66 0px 0px 0px;
+}
+
+.containerSecondary{
+  display: flex;
+  align-items: center; 
+  flex-direction: column; 
+  margin: 4rem;
+}
+.footer{
+  margin-top: 1rem;
+  width: 100%;
+  height: 12rem;
+  background-color: #2b2a2a;
+  color: #fff;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.footer p{
+  margin: 0;
+}
+
+.footer img{
+  width: 20rem;
+  height: auto;
+}
+
+.images{
+  width: 30rem;
+  height: auto;
+}
