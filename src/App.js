@@ -1,5 +1,6 @@
 import styles from './App.module.css'
 import Navbar from './components/navbar/navbar'
+import React from 'react'
 
 export default function App() {
   return (
