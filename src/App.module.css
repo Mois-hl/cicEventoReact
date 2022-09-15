@@ -8,6 +8,12 @@
   background-attachment: fixed;
 }
 
+@media (max-width: 720px) {
+  .header{
+    background-position: center center;
+  }
+}
+
 .title{
   height: 100%;
   display: flex;
@@ -20,6 +26,13 @@
 .title p{
   margin: 0;
   font-size: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .title{
+    text-align: center;
+    padding: 0 1rem;
+  }
 }
 .mainContainer{
   display: flex;
@@ -37,6 +50,13 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   place-items: center;
+  place-content: center;
+}
+
+@media (max-width: 720px) {
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .prueba {
@@ -54,6 +74,12 @@
 .organizadores{
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .organizadores{
+    flex-direction: column;
+  }
 }
 
 .boton{
@@ -77,12 +103,11 @@
   display: flex;
   align-items: center; 
   flex-direction: column; 
-  margin: 4rem;
+  margin: 4rem 0;
 }
 .footer{
   margin-top: 1rem;
   width: 100%;
-  height: 12rem;
   background-color: #2b2a2a;
   color: #fff;
   padding: 3rem;
@@ -93,6 +118,7 @@
 
 .footer p{
   margin: 0;
+  font-size: 1rem;
 }
 
 .footer img{
@@ -100,7 +126,19 @@
   height: auto;
 }
 
+@media (max-width: 720px) {
+  .footer{
+    flex-direction: column;
+  }
+  .footer img{
+    width: 15rem;
+  }
+  .footer p{
+    font-size: 0.7rem;
+  }
+}
+
 .images{
-  width: 30rem;
+  width: 95%;
   height: auto;
 }

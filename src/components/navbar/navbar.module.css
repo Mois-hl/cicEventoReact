@@ -11,6 +11,15 @@
   top: 0;
 }
 
+@media (max-width: 720px) {
+  .container{
+    flex-direction: column;
+    padding: 0.9rem 0;
+    position: initial;
+    margin-bottom: 0;
+  }
+}
+
 .container img{
   width: 3.5rem;
   height: auto;
@@ -22,8 +31,21 @@
   margin: 0;
 }
 
+@media (max-width: 720px) {
+  .menu{
+    flex-direction: column;
+  }
+}
+
 .menu li{
-  margin-right: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.menu li:last-child{
+  margin-right: 0;
+}
+
+.menu a{
   transition: all 600ms ease;
   padding: 1rem 0.9rem;
   border-radius: 4px;
@@ -34,11 +56,13 @@
   color: #fff;
 }
 
-.menu li:last-child{
-  margin-right: 0;
-}
-
-.menu li:hover{
+.menu a:hover{
   color: #000;
   background-color: #9ef0f0;
+}
+
+@media (max-width: 720px) {
+  .menu a{
+    padding: 0;
+  }
 }

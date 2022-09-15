@@ -9,7 +9,7 @@ export default function App() {
       <header className={styles.header} >
         <div className={styles.title} >
           <h1>3er COLOQUIO DE CÓMPUTO CUÁNTICO DEL CIC</h1>
-          <p>Organizado por los laboratorios de Cómputo no Convencional y el de Simulacion y Modelado</p>
+          <p>Organziado por el laboratorio de Robótica y Mecátronica</p>
         </div>
       </header>
       <div className={styles.mainContainer}>
@@ -48,7 +48,7 @@ export default function App() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
           </div>
           <div style={{width:'100%', height:'100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10}}>
-            <div style={{background: '#00000055', width:'100%', height:'40%', borderRadius: 20}}></div>
+            <div style={{background: '#00000055', width:'100%', height:'4rem', borderRadius: 20}}></div>
               <p>Para registrarse de click en el botón</p>
               <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
           </div>
@@ -85,15 +85,13 @@ export default function App() {
         </div>
       </div>
       <footer className={ styles.footer}>
-        <div style={{ width: 300 }}>
-          <img src={require('./assets/logoLab.png')} alt='logo cic' />
-        </div>
-        <div>
+        <img src={require('./assets/logoLab.png')} alt='logo cic' />
+        <div style={{ marginTop: 10 }}>
           <p>Instituto Politécnico Nacional</p>
           <p>Centro de Investigación en Computación</p>
           <p>Laboratorio de Robótica y Mecatrónica</p>
         </div>
-        <div>
+        <div style={{ marginTop: 10 }}>
           <p><strong>Dirección</strong></p>
           <p>Av. Juan de Dios Bátiz, esq. Miguel Othón de Mendizábal,</p>
           <p>Col.Nueva Industrial Vallejo, Alcaldía Gustavo A. Madero,<br></br> C.P. 07738, CDMX</p>
