@@ -67,7 +67,7 @@ export default function App() {
               <li>Dr. Ponciano Jorge Escamilla Ambrosio</li>
               <li>Dra. Elsa Rubio Espino</li>
               <li>Dr. Erik Zamora Gómez</li>
-              <li>Dr. Sergio Vidan Beltran</li>
+              <li>Dr. Sergio Vidal Beltrán</li>
             </ul>
             <ul>
               <li style={{ listStyle: 'none', marginBottom: 10 }}><strong>Coordinador adm.: </strong></li>

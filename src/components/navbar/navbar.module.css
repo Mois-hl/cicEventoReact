@@ -34,6 +34,12 @@
 @media (max-width: 720px) {
   .menu{
     flex-direction: column;
+    margin-top: 1rem;
+    list-style-type: disc;
+    color: #9ef0f0;
+  }
+  .container img{
+    width: 4rem;
   }
 }
 
@@ -64,5 +70,8 @@
 @media (max-width: 720px) {
   .menu a{
     padding: 0;
+  }
+  .menu li{
+    margin-bottom: 0.1rem;
   }
 }

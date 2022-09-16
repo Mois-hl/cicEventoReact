@@ -11,6 +11,7 @@
 @media (max-width: 720px) {
   .header{
     background-position: center center;
+    background-attachment: unset;
   }
 }
 
@@ -69,6 +70,12 @@
   background-blend-mode: darken;
   background-attachment: fixed;
   width: 100%;
+}
+
+@media (max-width: 720px) {
+  .prueba{
+    background-attachment: unset;
+  }
 }
 
 .organizadores{
