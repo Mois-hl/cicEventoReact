@@ -46,7 +46,7 @@
 
 .container{
   margin-top: 2rem;
-  width: 70%;
+  width: 76%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
@@ -60,7 +60,7 @@
   }
 }
 
-.prueba {
+.imagencic {
   margin-top: 2rem;
   background: rgba(0, 0, 0, 0.6) url(./assets/cic.jpg);
   height: 20rem;
@@ -73,7 +73,7 @@
 }
 
 @media (max-width: 720px) {
-  .prueba{
+  .imagencic{
     background-attachment: unset;
   }
 }
@@ -110,7 +110,8 @@
   display: flex;
   align-items: center; 
   flex-direction: column; 
-  margin: 4rem 0;
+  margin-top: 2rem;
+  width: 76%;
 }
 .footer{
   margin-top: 1rem;
@@ -148,4 +149,27 @@
 .images{
   width: 95%;
   height: auto;
+}
+
+.imagenesSponsor{
+  width: 76%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagenesSponsor img{
+  height: 5rem;
+  width: auto;
+  margin: 1rem;
+}
+
+@media (max-width: 720px) {
+  .imagenesSponsor img{
+    height: 4rem;
+    margin: 0.7rem;
+  }
+  .imagenesSponsor{
+    width: 88%;
+  }
 }

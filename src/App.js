@@ -13,6 +13,26 @@ export default function App() {
         </div>
       </header>
       <div className={styles.mainContainer}>
+        <div className={styles.containerSecondary}>
+          <h2>Sponsors Coloquio</h2>
+          <div className={styles.imagenesSponsor}>
+            <img src={require('./assets/sponsors/entropica.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/Hood_College_Shield.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/ibm_quantum.jpeg')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/multiverse.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/oxford.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/qbraid_logo_verbose-large.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/quantum_universal_education.png')} alt='imagen sponsor' />
+            <img src={require('./assets/RyM.png')} alt='imagen sponsor' />
+            <img src={require('./assets/IPN-logo.png')} alt='imagen sponsor' />
+            <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/tec_monterrey.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/UF-logo-tagline.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/universidad de cordoba.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/zapatalogo_2.png')} alt='imagen sponsor' />
+          </div>
+        </div>
         <div className={styles.container}>
           <div>
             <h2>Acerca de</h2>
@@ -41,7 +61,7 @@ export default function App() {
           </div>
           <div style={{background: '#00000055', width:'100%', height:'20rem', borderRadius: 20}}></div>
         </div>
-        <div className={styles.prueba}></div>
+        <div className={styles.imagencic}></div>
         <div className={styles.container}>
           <div>
             <h2>Hackathon</h2>
@@ -51,6 +71,22 @@ export default function App() {
             <div style={{background: '#00000055', width:'100%', height:'4rem', borderRadius: 20}}></div>
               <p>Para registrarse de click en el botón</p>
               <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
+          </div>
+        </div>
+        <div className={styles.containerSecondary}>
+          <h2>Sponsors Hackathon</h2>
+          <div className={styles.imagenesSponsor}>
+            <img src={require('./assets/sponsors/entropica.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/multiverse.png')} alt='imagen sponsor' /> 
+            <img src={require('./assets/sponsors/ibm_quantum.jpeg')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/qbraid_logo_verbose-large.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/qnexico.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/quantum_universal_education.png')} alt='imagen sponsor' />
+            <img src={require('./assets/RyM.png')} alt='imagen sponsor' />
+            <img src={require('./assets/IPN-logo.png')} alt='imagen sponsor' />
+            <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/UF-logo-tagline.png')} alt='imagen sponsor' />
+            <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
           </div>
         </div>
         <div className={styles.containerSecondary}>
@@ -82,6 +118,9 @@ export default function App() {
               <li>Ing. Diana Patricia Barragán Vázquez</li>
             </ul>
           </div>
+        </div>
+        <div className={styles.containerSecondary}>
+          <h2>Alumnos organizadores</h2>
         </div>
       </div>
       <footer className={ styles.footer}>
