@@ -54,26 +54,21 @@ export default function App() {
           </div>
           <div style={{background: '#00000055', width:'100%', height:'20rem', borderRadius: 20}}></div>
         </div>
-        <div className={styles.container}>
-          <div>
-            <h2>Hackathon</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
-          </div>
-          <div style={{background: '#00000055', width:'100%', height:'20rem', borderRadius: 20}}></div>
-        </div>
         <div className={styles.imagencic}></div>
-        <div className={styles.container}>
-          <div>
-            <h2>Hackathon</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
-          </div>
-          <div style={{width:'100%', height:'100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10}}>
-            <div style={{background: '#00000055', width:'100%', height:'4rem', borderRadius: 20}}></div>
-              <p>Para registrarse de click en el botón</p>
-              <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <h2>Hackathon</h2>
+          <div className={styles.container}>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
+            </div>
+            <div style={{width:'100%', height:'100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10}}>
+              <div style={{background: '#00000055', width:'100%', height:'4rem', borderRadius: 20}}></div>
+                <p>Para registrarse de click en el botón</p>
+                <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
+            </div>
           </div>
         </div>
-        <div className={styles.containerSecondary}>
+        <div className={styles.containerSecondary} style={{ marginTop: 0 }}>
           <h2>Sponsors Hackathon</h2>
           <div className={styles.imagenesSponsor}>
             <img src={require('./assets/sponsors/entropica.png')} alt='imagen sponsor' />
@@ -104,9 +99,6 @@ export default function App() {
               <li>Dra. Elsa Rubio Espino</li>
               <li>Dr. Erik Zamora Gómez</li>
               <li>Dr. Sergio Vidal Beltrán</li>
-            </ul>
-            <ul>
-              <li style={{ listStyle: 'none', marginBottom: 10 }}><strong>Coordinador adm.: </strong></li>
               <li>Dr. Juan Carlos Chimal Eguia</li>
             </ul>
             <ul>
