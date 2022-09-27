@@ -7,12 +7,12 @@ export default function Navbar () {
     <nav className={styles.container}>
       <img src={require('../../assets/RyM.png')} alt='logo cic' />
       <ul className={styles.menu}>
-        <li><Link activeClass={styles.active} to="header" spy={true} smooth={true} offset={-85} duration={800}>Inicio</Link></li>
-        <li><Link activeClass={styles.active} to="acerca" spy={true} smooth={true} offset={-85} duration={800}>Acerca de</Link></li>
-        <li><Link activeClass={styles.active} to="fechas" spy={true} smooth={true} offset={-85} duration={800}>Fechas</Link></li>
-        <li><Link activeClass={styles.active} to="expositores" spy={true} smooth={true} offset={-85} duration={800}>Expositores</Link></li>
-        <li><Link activeClass={styles.active} to="hack" spy={true} smooth={true} offset={-85} duration={800}>Hackathon</Link></li>
-        <li><Link activeClass={styles.active} to="organizadores" spy={true} smooth={true} offset={-85} duration={800}>Organizadores</Link></li>
+        <li><Link activeClass={styles.active} to="header" spy={true} smooth={true} offset={-85} duration={500}>Inicio</Link></li>
+        <li><Link activeClass={styles.active} to="acerca" spy={true} smooth={true} offset={-85} duration={500}>Acerca de</Link></li>
+        <li><Link activeClass={styles.active} to="fechas" spy={true} smooth={true} offset={-85} duration={500}>Fechas</Link></li>
+        <li><Link activeClass={styles.active} to="expositores" spy={true} smooth={true} offset={-85} duration={500}>Expositores</Link></li>
+        <li><Link activeClass={styles.active} to="hack" spy={true} smooth={true} offset={-85} duration={500}>Hackathon</Link></li>
+        <li><Link activeClass={styles.active} to="organizadores" spy={true} smooth={true} offset={-85} duration={500}>Organizadores</Link></li>
       </ul>
     </nav>
   )
