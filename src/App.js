@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <header className={styles.header} >
+      <header id='header' className={styles.header} >
         <div className={styles.title} >
           <h1>3er COLOQUIO DE CÓMPUTO CUÁNTICO DEL CIC</h1>
           <p>Organziado por el laboratorio de Robótica y Mecátronica</p>
@@ -33,21 +33,21 @@ export default function App() {
             <img src={require('./assets/sponsors/zapatalogo_2.png')} alt='imagen sponsor' />
           </div>
         </div>
-        <div className={styles.container}>
+        <div id='acerca' className={styles.container}>
           <div>
             <h2>Acerca de</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
           </div>
           <img className={styles.images} src={require('./assets/FallFestWordMark.png')} alt='logo evento' />
         </div>
-        <div className={styles.container}>
+        <div id='fechas' className={styles.container}>
           <div>
             <h2>Fechas</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
           </div>
           <div style={{background: '#00000055', width:'100%', height:'20rem', borderRadius: 20}}></div>
         </div>
-        <div className={styles.container}>
+        <div id='expositores' className={styles.container}>
           <div>
             <h2>Expositores</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
@@ -55,7 +55,7 @@ export default function App() {
           <div style={{background: '#00000055', width:'100%', height:'20rem', borderRadius: 20}}></div>
         </div>
         <div className={styles.imagencic}></div>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div id='hack' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <h2>Hackathon</h2>
           <div className={styles.container}>
             <div>
@@ -84,7 +84,7 @@ export default function App() {
             <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
           </div>
         </div>
-        <div className={styles.containerSecondary}>
+        <div id='organizadores' className={styles.containerSecondary}>
           <h2>Organizadores</h2>
           <div className={styles.organizadores}>
             <ul>

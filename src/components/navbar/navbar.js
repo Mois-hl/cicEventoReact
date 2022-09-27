@@ -1,18 +1,18 @@
 import React from 'react'
 import styles from './navbar.module.css'
+import { Link } from "react-scroll";
 
 export default function Navbar () {
   return (
     <nav className={styles.container}>
       <img src={require('../../assets/RyM.png')} alt='logo cic' />
       <ul className={styles.menu}>
-        <li><a href='/#'>Inicio</a></li>
-        <li><a href='/#'>Acerca de</a></li>
-        <li><a href='/#'>Fechas</a></li>
-        <li><a href='/#'>Expositores</a></li>
-        <li><a href='/#'>Hackathon</a></li>
-        <li><a href='/#'>Registro</a></li>
-        <li><a href='/#'>Organizadores</a></li>
+        <li><Link activeClass={styles.active} to="header" spy={true} smooth={true} offset={-85} duration={800}>Inicio</Link></li>
+        <li><Link activeClass={styles.active} to="acerca" spy={true} smooth={true} offset={-85} duration={800}>Acerca de</Link></li>
+        <li><Link activeClass={styles.active} to="fechas" spy={true} smooth={true} offset={-85} duration={800}>Fechas</Link></li>
+        <li><Link activeClass={styles.active} to="expositores" spy={true} smooth={true} offset={-85} duration={800}>Expositores</Link></li>
+        <li><Link activeClass={styles.active} to="hack" spy={true} smooth={true} offset={-85} duration={800}>Hackathon</Link></li>
+        <li><Link activeClass={styles.active} to="organizadores" spy={true} smooth={true} offset={-85} duration={800}>Organizadores</Link></li>
       </ul>
     </nav>
   )
