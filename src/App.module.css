@@ -45,13 +45,32 @@
 }
 
 .container{
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   width: 76%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   place-items: center;
   place-content: center;
+}
+
+.containerFechas{
+  margin-bottom: 5rem;
+  width: 83%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  place-items: center;
+  place-content: center;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 9px 9px 40px -22px rgba(0,0,0,1);
+  -moz-box-shadow: 9px 9px 40px -22px rgba(0,0,0,1);
+  box-shadow: 9px 9px 40px -22px rgba(0,0,0,1);
+}
+
+.containerFechas h3{
+  text-align: center;
 }
 
 @media (max-width: 720px) {
@@ -62,7 +81,7 @@
 
 .imagencic {
   margin-top: 2rem;
-  background: rgba(0, 0, 0, 0.6) url(./assets/cic.jpg);
+  background: rgba(0, 0, 0, 0.6) url(./assets/ChandelierGraffitiLogo.png);
   height: 20rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,7 +129,7 @@
   display: flex;
   align-items: center; 
   flex-direction: column; 
-  margin-top: 2rem;
+  margin-bottom: 5rem;
   width: 76%;
 }
 .footer{
@@ -152,7 +171,7 @@
 }
 
 .imagenesSponsor{
-  width: 85%;
+  width: 92%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -160,7 +179,7 @@
 }
 
 .imagenesSponsor img{
-  height: 5rem;
+  height: 4.5rem;
   width: auto;
   margin: 1rem;
 }
@@ -173,4 +192,38 @@
   .imagenesSponsor{
     width: 88%;
   }
+}
+
+.aviso{
+  margin-top: 1rem;
+}
+
+.aviso a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.aviso a:hover{
+  color: #9ef0f0;
+}
+
+.cardsAlumnos{
+  width: auto;
+  height: 9rem;
+  border-radius: 15px;
+  border: 2px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.cardsAlumnos p{
+  margin: 0;
+}
+
+.cardsAlumnos img{
+  height: 5rem;
+  width: auto;
 }
