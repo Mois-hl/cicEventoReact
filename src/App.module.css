@@ -79,6 +79,14 @@
   }
 }
 
+@media (max-width: 720px) {
+  .containerFechas{
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    box-shadow: 0 0 0 0;
+  }
+}
+
 .imagencic {
   margin-top: 2rem;
   background: rgba(0, 0, 0, 0.6) url(./assets/ChandelierGraffitiLogo.png);
@@ -204,7 +212,7 @@
 }
 
 .aviso a:hover{
-  color: #9ef0f0;
+  border-bottom: 2px solid #fff;
 }
 
 .cardsAlumnos{
@@ -219,11 +227,24 @@
   padding: 1rem 2rem;
 }
 
+.cardsAlumnos:hover{
+  border: 2px solid #09f;
+  color: #09f;
+}
+
+
 .cardsAlumnos p{
   margin: 0;
 }
 
 .cardsAlumnos img{
-  height: 5rem;
+  height: 4rem;
   width: auto;
+}
+
+@media (max-width: 720px) {
+  .cardsAlumnos{
+    width: 18rem;
+    height: auto;
+  }
 }

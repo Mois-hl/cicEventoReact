@@ -62,14 +62,82 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div id='expositores' className={styles.container}>
-          <div>
-            <h2>Expositores</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
+        <div id='expositores' className={styles.containerSecondary} style={{ width: '85%' }}>
+          <h2>Expositores</h2>
+          <div style={{ display:'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center' }}>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/tec_monterrey.png')} alt='imagen sponsor' />
+              <p><strong>Tec de Monterrey</strong></p>
+              <p>Salvador E. Venegas-Andraca</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <p><strong>CIC-IPN</strong></p>
+              <p>Guohua Sun</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/ibm_quantum.jpeg')} alt='imagen sponsor' />
+              <p><strong>IBM Quantum</strong></p>
+              <p>Ginés Carrascal</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <p><strong>CIC-IPN</strong></p>
+              <p>Ivan Fernández Cid</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/multiverse.png')} alt='imagen sponsor' />
+              <p><strong>Multiverse Computing</strong></p>
+              <p>Victor Onofre</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/multiverse.png')} alt='imagen sponsor' />
+              <p><strong>Multiverse Computing</strong></p>
+              <p>Cristina Sanz Fernández</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
+              <p><strong>Xanadu</strong></p>
+              <p>Catalina Albornoz Anzola</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/entropica.png')} alt='imagen sponsor' />
+              <p><strong>Entropica Labs</strong></p>
+              <p>Leonardo Disilvestro</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/universidad de cordoba.png')} alt='imagen sponsor' />
+              <p><strong>Universidad de Córdoba</strong></p>
+              <p>Cristian E. Susa Quintero</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/Hood_College_Shield.png')} alt='imagen sponsor' />
+              <p><strong>Hood College</strong></p>
+              <p>Daniel Sierra-Sosa</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/oxford.png')} alt='imagen sponsor' />
+              <p><strong>Oxford</strong></p>
+              <p>Lia Yeh</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/qbraid_logo_verbose-large.png')} alt='imagen sponsor' />
+              <p><strong>Qbraid</strong></p>
+              <p>Ricky Young</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <p><strong>Unitary Fund</strong></p>
+              <p>Nathan Sharma</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/zapatalogo_2.png')} alt='imagen sponsor' />
+              <p><strong>Zapata Computing</strong></p>
+              <p>Michał Stęchły</p>
+            </div>
           </div>
-          <div style={{background: '#00000055', width:'100%', height:'20rem', borderRadius: 20}}></div>
         </div>
-        <div id='organizadores' className={styles.containerSecondary} style={{ width: '82%' }}>
+        <div id='' className={styles.containerSecondary} style={{ width: '82%' }}>
           <h2>Organizadores Coloquio</h2>
           <div className={styles.organizadores} style={{ gap: 40 }}>
             <ul>
@@ -96,16 +164,18 @@ export default function App() {
             </ul>
           </div>
         </div>
-        <div id='' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div id='registro' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <h2>Registro para el Coloquio</h2>
           <div className={styles.container}>
             <div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
             </div>
-            <div style={{width:'100%', height:'100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10}}>
-              <div style={{background: '#00000055', width:'100%', height:'4rem', borderRadius: 20}}></div>
-                <p>Para registrarse de click en el <strong>bóton</strong></p>
+            <div style={{width:'100%', height:'100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
+              <img src={require('./assets/icon_2.png')} alt='imagen sponsor' height='100px' />
+              <div>
+                <p style={{ marginBottom: 50 }}>Para registrarse de click en el <strong>bóton</strong></p>
                 <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
+              </div>
             </div>
           </div>
         </div>
@@ -139,8 +209,8 @@ export default function App() {
             <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
           </div>
         </div>
-        <div className={styles.containerSecondary} style={{ width: '85%' }}>
-          <h2>Alumnos organizadores</h2>
+        <div id='organizadores' className={styles.containerSecondary} style={{ width: '85%' }}>
+          <h2>Alumnos organizadores del Hackathon</h2>
           <div style={{ display:'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center' }}>
             <div className={styles.cardsAlumnos}>
               <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
