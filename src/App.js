@@ -7,10 +7,10 @@ export default function App() {
     <div>
       <Navbar />
       <header id='header' className={styles.header} >
-        <div className={styles.title} >
+        {/* <div className={styles.title} >
           <h1>3er COLOQUIO DE CÓMPUTO CUÁNTICO DEL CIC</h1>
           <p>Organziado por el laboratorio de Robótica y Mecátronica</p>
-        </div>
+        </div> */}
       </header>
       <div className={styles.mainContainer}>
         <div className={styles.containerSecondary}>
@@ -38,7 +38,7 @@ export default function App() {
             <h2>Acerca de</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
           </div>
-          <img className={styles.images} src={require('./assets/FallFestWordMark.png')} alt='logo evento' />
+          <img className={styles.images} src={require('./assets/q_algorithms.png')} alt='logo evento' />
         </div>
         <div id='fechas' className={styles.containerSecondary} style={{marginTop: 0}}>
           <h2>Fechas</h2>
@@ -126,7 +126,7 @@ export default function App() {
               <p>Ricky Young</p>
             </div>
             <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <img src={require('./assets/sponsors/UF-logo-tagline.png')} alt='imagen sponsor' />
               <p><strong>Unitary Fund</strong></p>
               <p>Nathan Sharma</p>
             </div>
@@ -156,11 +156,13 @@ export default function App() {
             </ul>
             <ul>
               <li style={{ listStyle: 'none', marginBottom: 10 }}><strong>Apoyo logístico: </strong></li>
+              <li>Catalina Albornoz Anzola</li>
               <li>M en C. Elizabeth López Lozada</li>
               <li>M en C. David Peréz Martínez</li>
               <li>M en C. José Angel Martínez Navarro</li>
               <li>M en C. Mario Alfredo Ibarra Carrillo</li>
               <li>Ing. Diana Patricia Barragán Vázquez</li>
+              <li>Moisés Hernández López</li>
             </ul>
           </div>
         </div>
@@ -168,13 +170,14 @@ export default function App() {
           <h2>Registro para el Coloquio</h2>
           <div className={styles.container}>
             <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
+              <p>PROXIMAMENTE en el CIC #IPN se llevará a cabo el 3° Coloquio de Cómputo Cuántico, los días 28, 29 y 30 de noviembre de manera <strong>gratuita</strong>, podrás conocer a expertos de la industria y la academia hablando sobre su trabajo, aplicaciones y experiencias en esta área que en recientes años ha tenido un gran interés e impacto, se tratarán temas como: mitigar el error en una computadora cuántica, aprendizaje automático cuántico para la salud, entre otros. Muy pronto tendremos más detalles.</p>
             </div>
             <div style={{width:'100%', height:'100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
               <img src={require('./assets/icon_2.png')} alt='imagen sponsor' height='100px' />
-              <div>
-                <p style={{ marginBottom: 50 }}>Para registrarse de click en el <strong>bóton</strong></p>
-                <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
+                <p>Dudas o sugerencias: <strong>qc_events@cic.ipn.mx</strong></p>
+                <a href='https://airtable.com/shr3xrT9QI2KLx5dB' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</a>
               </div>
             </div>
           </div>
@@ -183,13 +186,14 @@ export default function App() {
         <div id='hack' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <h2>Hackathon</h2>
           <div className={styles.container}>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <p>Qiskit Fall-Fest Mexico se realizará este mismo evento del 17 de octubre al 21 de octubre la semana de talleres y del 24 al 28 de octubre el hackathon, invitamos en esta ocasión más expertos latinoamericanos como empresas que darán pláticas y retos no solo usando qiskit sino los software de Xanadu y OpenQAOA Expertos hispanohablantes que darán pláticas y retos no solo usando qiskit sino los software de Xanadu y OpenQAOA 🚀 🏆 ✨ Conoce sobre como aplicar la computación cuántica en áreas química, optiización , Machine Learning, internet cuántico, entre otros. 💻 Foros para conocer a los expertos y sus opiniones como experiencias. 🎊 Comienza a conocer más de la computación cuántica y logra conectar con otros y decidir tu camino en esta área 😺 Habrá retos de Xanadu, de Entropica Labs, Quantum Universal Education, pláticas de qBraid, Multiverse Computing, Unitary Fund, mucho más</p>
+              <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
+              <p>Dudas o sugerencias: <strong>fall.fest.mx@gmail.com</strong></p>
+              <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton} target="_blank" rel="noopener noreferrer">Registro</a >
             </div>
-            <div style={{width:'100%', height:'100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10}}>
-              <div style={{background: '#00000055', width:'100%', height:'4rem', borderRadius: 20}}></div>
-                <p>Para registrarse de click en el <strong>bóton</strong></p>
-                <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton}>Registro</a >
+            <div>
+                <img src={require('./assets/hackathon.png')} alt='imagen sponsor' width='340px' height='auto' />
             </div>
           </div>
         </div>
@@ -233,19 +237,24 @@ export default function App() {
               <p>Lia Yeh</p>
             </div>
             <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <img src={require('./assets/sponsors/keio.png')} alt='imagen sponsor' />
               <p><strong>Keio University</strong></p>
               <p>Samanvay Sharma</p>
             </div>
             <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <img src={require('./assets/sponsors/barcelona.png')} alt='imagen sponsor' />
               <p><strong>Universidad de Barcelona</strong></p>
               <p>Richard Kienhoefer</p>
             </div>
             <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+              <img src={require('./assets/sponsors/valle.png')} alt='imagen sponsor' />
               <p><strong>Universidad del Valle</strong></p>
               <p>Kevin Jofroit Joven Noriega</p>
+            </div>
+            <div className={styles.cardsAlumnos}>
+              <img src={require('./assets/sponsors/unam.png')} alt='imagen sponsor' />
+              <p><strong>Universidad Nacional Autónoma de México</strong></p>
+              <p>Claudia Zendejas Morales</p>
             </div>
           </div>
         </div>
@@ -264,7 +273,7 @@ export default function App() {
             <p>Col.Nueva Industrial Vallejo, Alcaldía Gustavo A. Madero,<br></br> C.P. 07738, CDMX</p>
           </div>
           <div className={styles.aviso}>
-            <p><strong><a href='https://www.cic.ipn.mx/documentos/descargas/SGC/avisopriv.pdf'>Aviso de privacidad</a></strong></p>
+            <p><strong><a href='https://www.cic.ipn.mx/documentos/descargas/SGC/avisopriv.pdf' target="_blank" rel="noopener noreferrer">Aviso de privacidad</a></strong></p>
           </div>
         </div>
       </footer>
