@@ -10,6 +10,7 @@
   .header{
     background-position: center center;
     background-attachment: unset;
+    height: 60vh;
   }
 }
 

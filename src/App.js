@@ -12,7 +12,7 @@ export default function App() {
           <p>Organziado por el laboratorio de Robótica y Mecátronica</p>
         </div> */}
       </header>
-      <div className={styles.mainContainer}>
+      <div className={styles.mainContainer} style={{ marginTop: 40 }}>
         <div className={styles.containerSecondary}>
           <h2>Sponsors Coloquio</h2>
           <div className={styles.imagenesSponsor}>
@@ -36,7 +36,7 @@ export default function App() {
         <div id='acerca' className={styles.container}>
           <div>
             <h2>Acerca de</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit a doloremque saepe exercitationem ullam corrupti commodi id perspiciatis magni molestias, facilis possimus iusto earum modi sunt magnam unde voluptatum voluptate quod dignissimos optio, officiis laborum nulla. Et, cum labore!</p>
+            <p>Este evento nació en el Centro de Investigación en Computación del Instituto Politécnico Nacional (CIC-IPN), su primera versión fue en el año 2014, y se realizaba cada tres años, por cuestiones de la pandemia se aplazó este coloquio. En el 2022 regresa en su tercera versión, considerando el gran impacto que se tiene en la computación cuántica tanto en la academia como en la industria, y las aplicaciones que se pueden dar. Un gran progreso de esto es el trabajo "for experiments with entangled photons, establishing the violation of Bell inequalities and pioneering quantum information science"  que les dio a sus autores el premio novel de Física del 2022.  Siendo este evento fomentar en México y en Latinoamérica un apoyo en el interés de esta área de la computación.</p>
           </div>
           <img className={styles.images} src={require('./assets/q_algorithms.png')} alt='logo evento' />
         </div>
@@ -187,7 +187,7 @@ export default function App() {
           <h2>Hackathon</h2>
           <div className={styles.container}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <p>Qiskit Fall-Fest Mexico se realizará este mismo evento del 17 de octubre al 21 de octubre la semana de talleres y del 24 al 28 de octubre el hackathon, invitamos en esta ocasión más expertos latinoamericanos como empresas que darán pláticas y retos no solo usando qiskit sino los software de Xanadu y OpenQAOA Expertos hispanohablantes que darán pláticas y retos no solo usando qiskit sino los software de Xanadu y OpenQAOA 🚀 🏆 ✨ Conoce sobre como aplicar la computación cuántica en áreas química, optiización , Machine Learning, internet cuántico, entre otros. 💻 Foros para conocer a los expertos y sus opiniones como experiencias. 🎊 Comienza a conocer más de la computación cuántica y logra conectar con otros y decidir tu camino en esta área 😺 Habrá retos de Xanadu, de Entropica Labs, Quantum Universal Education, pláticas de qBraid, Multiverse Computing, Unitary Fund, mucho más</p>
+              <p>Qiskit Fall-Fest Mexico se realizará este mismo evento del 17 de octubre al 21 de octubre de manera <strong>gratuita y virtual</strong> la semana de talleres y del 24 al 28 de octubre el hackathon, invitamos en esta ocasión más expertos latinoamericanos como empresas que darán pláticas y retos no solo usando qiskit sino los software de Xanadu y OpenQAOA Expertos hispanohablantes que darán pláticas y retos no solo usando qiskit sino los software de Xanadu y OpenQAOA 🚀 🏆 ✨ Conoce sobre como aplicar la computación cuántica en áreas química, optiización , Machine Learning, internet cuántico, entre otros. 💻 Foros para conocer a los expertos y sus opiniones como experiencias. 🎊 Comienza a conocer más de la computación cuántica y logra conectar con otros y decidir tu camino en esta área 😺 Habrá retos de Xanadu, de Entropica Labs, Quantum Universal Education, pláticas de qBraid, Multiverse Computing, Unitary Fund, mucho más</p>
               <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
               <p>Dudas o sugerencias: <strong>fall.fest.mx@gmail.com</strong></p>
               <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton} target="_blank" rel="noopener noreferrer">Registro</a >

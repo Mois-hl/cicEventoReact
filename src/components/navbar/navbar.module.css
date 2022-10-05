@@ -37,6 +37,7 @@
     margin-top: 1rem;
     list-style-type: disc;
     color: #9ef0f0;
+    display: none;
   }
   .container img{
     width: 4rem;
