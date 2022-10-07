@@ -44,13 +44,17 @@
 }
 
 .container{
-  margin-bottom: 5rem;
-  width: 76%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 3rem;
   place-content: center;
+  place-items: center;
+  width: 76%;
+}
+
+.container > div > p{
+  text-align: justify;
 }
 
 .containerFechas{
@@ -135,7 +139,7 @@
   display: flex;
   align-items: center; 
   flex-direction: column; 
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   width: 76%;
 }
 .footer{
