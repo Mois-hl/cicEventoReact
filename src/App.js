@@ -198,7 +198,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className={styles.containerSecondary} >
+        <div id='galeria' className={styles.containerSecondary} >
           <h2>Galería</h2>
           <Gallery />
         </div>
@@ -216,7 +216,7 @@ export default function App() {
             <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
             <img src={require('./assets/sponsors/UF-logo-tagline.png')} alt='imagen sponsor' />
             <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
-            <img src={require('./assets/sponsors/covalent.png')} alt='imagen sponsor' style={{ height:'2.6rem', alignSelf: 'end' }} />
+            <img src={require('./assets/sponsors/covalent.png')} alt='imagen sponsor' style={{ height: '1.8rem', alignSelf: 'center' }} />
           </div>
         </div>
         <div id='organizadores' className={styles.containerSecondary} style={{ width: '85%' }}>
