@@ -193,9 +193,21 @@ export default function App() {
               <p>Dudas o sugerencias: <strong>fall.fest.mx@gmail.com</strong></p>
               <a href='https://airtable.com/shrUZ218gQFxLE1ML' className={styles.boton} target="_blank" rel="noopener noreferrer">Registro</a >
             </div>
-            <div>
-                <img src={require('./assets/hackathon.png')} alt='imagen sponsor' width='340px' height='auto' />
-            </div>
+            <img src={require('./assets/hackathon.png')} alt='imagen sponsor' width='340px' height='auto' />
+          </div>
+        </div>
+        <div className={styles.containerSecondary} >
+          <h2>Fechas Hackathon</h2>
+          <div className={styles.fechasHack}>
+            <img src={require('./assets/hack_2.png')} alt='fechas hackathon' />
+            <img src={require('./assets/hack_1.png')} alt='fechas hackathon' />
+          </div>
+        </div>
+        <div className={styles.containerSecondary} >
+          <h2>Talleristas Hackathon</h2>
+          <div className={styles.talleristasHack}>
+            <img src={require('./assets/tall_1.png')} alt='fechas hackathon' />
+            <img src={require('./assets/tall_2.png')} alt='fechas hackathon' />
           </div>
         </div>
         <div id='galeria' className={styles.containerSecondary} >
