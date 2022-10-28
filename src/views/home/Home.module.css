@@ -1,5 +1,5 @@
 .header{
-  background: rgba(72,0,112,255) url(./assets/portada.png);
+  background: rgba(72,0,112,255) url(../../assets/portada.png);
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@
 
 .imagencic {
   margin-top: 2rem;
-  background: rgba(0, 0, 0, 0.6) url(./assets/ChandelierGraffitiLogo.png);
+  background: rgba(0, 0, 0, 0.6) url(../../assets/ChandelierGraffitiLogo.png);
   height: 20rem;
   background-size: cover;
   background-repeat: no-repeat;
