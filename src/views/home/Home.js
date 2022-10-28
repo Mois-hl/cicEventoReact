@@ -4,6 +4,7 @@ import React from 'react'
 import Gallery from '../../components/gallery/Gallery'
 import { images } from '../../assets/gallery/images1'
 import { images2 } from '../../assets/gallery/images2'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -191,7 +192,7 @@ export default function Home() {
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
                 <p>Dudas o sugerencias: <strong>qc_events@cic.ipn.mx</strong></p>
-                <a href='https://proyectosrym.cic.ipn.mx/qcoloquio/registro' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</a>
+                <Link to='/qcoloquio/registro' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</Link>
               </div>
             </div>
           </div>
