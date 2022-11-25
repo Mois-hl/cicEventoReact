@@ -191,7 +191,7 @@ export default function App() {
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
                 <p>Dudas o sugerencias: <strong>qc_events@cic.ipn.mx</strong></p>
-                <a href='https://proyectosrym.cic.ipn.mx/qcoloquio/registro' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</a>
+                <a href='https://airtable.com/shr3xrT9QI2KLx5dB' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</a>
               </div>
             </div>
           </div>

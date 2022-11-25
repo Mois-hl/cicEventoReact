@@ -13,10 +13,10 @@
 
 @media (max-width: 720px) {
   .container{
-    flex-direction: column;
-    padding: 0.9rem 0;
-    position: initial;
-    margin-bottom: 0;
+    /* flex-direction: column; */
+    padding: 0.7rem 1rem;
+    /* position: initial;
+    margin-bottom: 0; */
   }
 }
 
@@ -33,14 +33,11 @@
 
 @media (max-width: 720px) {
   .menu{
-    flex-direction: column;
-    margin-top: 1rem;
-    list-style-type: disc;
-    color: #9ef0f0;
     display: none;
+    align-items: center;
   }
   .container img{
-    width: 4rem;
+    width: 2rem;
   }
 }
 
@@ -81,3 +78,80 @@
 .active{
   text-decoration: underline;
 }
+
+/*MENU DE HAMBURGUESA*/
+
+.barsMenu{
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .barsMenu{
+    display: block;
+  }
+}
+
+.barsMenu span{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  margin-top: 6px;
+  transform-origin: 0px 100%;
+  transition: all 300ms;
+}
+
+.activeline1Bars{
+  transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activeline2Bars{
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.activeline3Bars{
+  transform: rotate(-45deg) translate(-4px, 2px);
+}
+
+.activelist{
+  transition: all 600ms;
+  opacity: 0;
+  transform: translateX(-190px);
+}
+
+.sidebarMenu{
+  display: none
+}
+
+.sidebarMenu aside{
+  border-right: 0px;
+}
+
+@media (max-width: 720px) {
+  .sidebarMenu{
+    display: flex;
+    height: 100%;
+  }
+
+  .sidebarMenu aside{
+    border-right: 0px;
+  }
+  .sidebarMenu a{
+    display: block;
+    color: #fff;
+    height: 50px;
+  }
+  
+  .sidebarMenu a:hover{
+    background-color: #ffffff22;
+  }
+
+  .isMenuActive{
+    display: none;
+  }
+}
+
