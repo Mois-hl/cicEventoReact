@@ -255,6 +255,46 @@
   }
 }
 
+.cardsExpositores{
+  width: auto;
+  height: 29rem;
+  border-radius: 15px;
+  border: 2px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  transition: all 500ms ease;
+}
+
+.cardsExpositores:hover{
+  border: 2px solid #09f;
+  color: #09f;
+}
+
+
+.cardsExpositores p{
+  margin: 0;
+}
+
+.cardsExpositores img{
+  height: 25rem;
+  width: auto;
+}
+
+@media (max-width: 720px) {
+  .cardsExpositores{
+    width: 13rem;
+    height: auto;
+  }
+
+  .cardsExpositores img{
+    height: 12rem;
+    width: auto;
+  }
+}
+
 .fechasHack{
   display: flex;
   gap: 2.8rem;
@@ -301,6 +341,31 @@
   }
 
   .talleristasHack img{
+    width: 21.25rem;
+  }
+}
+
+.ganadoresHack{
+  display: flex;
+  gap: 2.8rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ganadoresHack img{
+  width: 34rem;
+  height: auto;
+}
+
+@media (max-width: 720px) {
+  .ganadoresHack{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .ganadoresHack img{
     width: 21.25rem;
   }
 }

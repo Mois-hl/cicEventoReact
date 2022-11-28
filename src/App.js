@@ -65,78 +65,88 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div id='expositores' className={styles.containerSecondary} style={{ width: '85%' }}>
+        <div id='expositores' className={styles.containerSecondary} style={{ width: '95%' }}>
           <h2>Expositores</h2>
-          <div style={{ display:'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center' }}>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/tec_monterrey.png')} alt='imagen sponsor' />
+          <div style={{ display:'flex', flexWrap: 'wrap', gap: 20, justifyContent: 'center' }}>
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(5).jpeg')} alt='imagen sponsor' />
               <p><strong>Tec de Monterrey</strong></p>
               <p>Salvador E. Venegas-Andraca</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(3).jpeg')} alt='imagen sponsor' />
               <p><strong>CIC-IPN</strong></p>
               <p>Guohua Sun</p>
             </div>
-            <div className={styles.cardsAlumnos}>
+            {/* <div className={styles.cardsExpositores}>
               <img src={require('./assets/sponsors/ibm_quantum.jpeg')} alt='imagen sponsor' />
               <p><strong>IBM Quantum</strong></p>
               <p>Ginés Carrascal</p>
-            </div>
-            <div className={styles.cardsAlumnos}>
+            </div> */}
+            {/* <div className={styles.cardsExpositores}>
               <img src={require('./assets/cic-logo.png')} alt='imagen sponsor' />
               <p><strong>CIC-IPN</strong></p>
               <p>Ivan Fernández Cid</p>
-            </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/multiverse.png')} alt='imagen sponsor' />
+            </div> */}
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(7).jpeg')} alt='imagen sponsor' />
               <p><strong>Multiverse Computing</strong></p>
               <p>Victor Onofre</p>
             </div>
-            <div className={styles.cardsAlumnos}>
+            {/* <div className={styles.cardsExpositores}>
               <img src={require('./assets/sponsors/multiverse.png')} alt='imagen sponsor' />
               <p><strong>Multiverse Computing</strong></p>
               <p>Cristina Sanz Fernández</p>
-            </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/Xanadu Horizontal Logo — Black.png')} alt='imagen sponsor' />
+            </div> */}
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(1).jpeg')} alt='imagen sponsor' />
               <p><strong>Xanadu</strong></p>
               <p>Catalina Albornoz Anzola</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/entropica.png')} alt='imagen sponsor' />
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(10).jpeg')} alt='imagen sponsor' />
               <p><strong>Entropica Labs</strong></p>
               <p>Leonardo Disilvestro</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/universidad de cordoba.png')} alt='imagen sponsor' />
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(4).jpeg')} alt='imagen sponsor' />
               <p><strong>Universidad de Córdoba</strong></p>
               <p>Cristian E. Susa Quintero</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/Hood_College_Shield.png')} alt='imagen sponsor' />
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(11).jpeg')} alt='imagen sponsor' />
               <p><strong>Hood College</strong></p>
               <p>Daniel Sierra-Sosa</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/oxford.png')} alt='imagen sponsor' />
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(6).jpeg')} alt='imagen sponsor' />
               <p><strong>Oxford</strong></p>
               <p>Lia Yeh</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/qbraid_logo_verbose-large.png')} alt='imagen sponsor' />
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(8).jpeg')} alt='imagen sponsor' />
               <p><strong>Qbraid</strong></p>
               <p>Ricky Young</p>
             </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/UF-logo-tagline.png')} alt='imagen sponsor' />
+            {/* <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/UF-logo-tagline.png')} alt='imagen sponsor' />
               <p><strong>Unitary Fund</strong></p>
               <p>Nathan Sharma</p>
-            </div>
-            <div className={styles.cardsAlumnos}>
-              <img src={require('./assets/sponsors/zapatalogo_2.png')} alt='imagen sponsor' />
+            </div> */}
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(12).jpeg')} alt='imagen sponsor' />
               <p><strong>Zapata Computing</strong></p>
               <p>Michał Stęchły</p>
+            </div>
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(2).jpeg')} alt='imagen sponsor' />
+              <p><strong>Universidad EAFIT</strong></p>
+              <p>Juan Guillermo Lalinde Pulido</p>
+            </div>
+            <div className={styles.cardsExpositores}>
+              <img src={require('./assets/expositores/photo(9).jpeg')} alt='imagen sponsor' />
+              <p><strong>Unitary Fund</strong></p>
+              <p>Nate Stemen</p>
             </div>
           </div>
         </div>
@@ -286,6 +296,18 @@ export default function App() {
               <p><strong>Universidad Nacional Autónoma de México</strong></p>
               <p>Claudia Zendejas Morales</p>
             </div>
+          </div>
+        </div>
+        <div className={styles.containerSecondary} style={{ width: '85%' }}>
+          <h2>Ganadores del Hackathon</h2>
+          <div className={styles.ganadoresHack}>
+            <img src={require('./assets/ganadores1.jpeg')} alt='ganadores hackathon' />
+            <img src={require('./assets/ganadores3.jpeg')} alt='ganadores hackathon' />
+            <img src={require('./assets/ganadores4.jpeg')} alt='ganadores hackathon' />
+            <img src={require('./assets/4.png')} alt='ganadores hackathon' />
+            <img src={require('./assets/6.png')} alt='ganadores hackathon' />
+            <img src={require('./assets/10.png')} alt='ganadores hackathon' />
+            <img src={require('./assets/11.png')} alt='ganadores hackathon' />
           </div>
         </div>
       </div>
