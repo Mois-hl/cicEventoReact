@@ -65,6 +65,22 @@ export default function App() {
             </div>
           </div>
         </div>
+        <div id='registro' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <h2>Registro para el Coloquio</h2>
+          <div className={styles.container}>
+            <div>
+              <p>PROXIMAMENTE en el CIC #IPN se llevará a cabo el 3° Coloquio de Cómputo Cuántico, los días 28, 29 y 30 de noviembre de manera <strong>gratuita</strong>, podrás conocer a expertos de la industria y la academia hablando sobre su trabajo, aplicaciones y experiencias en esta área que en recientes años ha tenido un gran interés e impacto, se tratarán temas como: mitigar el error en una computadora cuántica, aprendizaje automático cuántico para la salud, entre otros. Muy pronto tendremos más detalles.</p>
+            </div>
+            <div style={{width:'100%', height:'100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
+              <img src={require('./assets/icon_2.png')} alt='imagen sponsor' height='100px' />
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
+                <p>Dudas o sugerencias: <strong>qc_events@cic.ipn.mx</strong></p>
+                <a href='https://airtable.com/shr3xrT9QI2KLx5dB' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id='expositores' className={styles.containerSecondary} style={{ width: '95%' }}>
           <h2>Expositores</h2>
           <div style={{ display:'flex', flexWrap: 'wrap', gap: 20, justifyContent: 'center' }}>
@@ -190,22 +206,6 @@ export default function App() {
             </ul>
           </div>
         </div>
-        <div id='registro' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h2>Registro para el Coloquio</h2>
-          <div className={styles.container}>
-            <div>
-              <p>PROXIMAMENTE en el CIC #IPN se llevará a cabo el 3° Coloquio de Cómputo Cuántico, los días 28, 29 y 30 de noviembre de manera <strong>gratuita</strong>, podrás conocer a expertos de la industria y la academia hablando sobre su trabajo, aplicaciones y experiencias en esta área que en recientes años ha tenido un gran interés e impacto, se tratarán temas como: mitigar el error en una computadora cuántica, aprendizaje automático cuántico para la salud, entre otros. Muy pronto tendremos más detalles.</p>
-            </div>
-            <div style={{width:'100%', height:'100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
-              <img src={require('./assets/icon_2.png')} alt='imagen sponsor' height='100px' />
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <p style={{ marginBottom: 0 }}>Para registrarse de click en el <strong>bóton</strong></p>
-                <p>Dudas o sugerencias: <strong>qc_events@cic.ipn.mx</strong></p>
-                <a href='https://airtable.com/shr3xrT9QI2KLx5dB' className={styles.boton} target="_blank" rel="noopener noreferrer" style={{ alignSelf: 'center' }}>Registro</a>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className={styles.imagencic}></div>
         <div id='hack' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <h2>Hackathon</h2>
@@ -300,12 +300,16 @@ export default function App() {
         </div>
         <div className={styles.containerSecondary} style={{ width: '85%' }}>
           <h2>Ganadores del Hackathon</h2>
+          <h2>First place</h2>
           <div className={styles.ganadoresHack}>
             <img src={require('./assets/ganadores1.jpeg')} alt='ganadores hackathon' />
             <img src={require('./assets/ganadores3.jpeg')} alt='ganadores hackathon' />
             <img src={require('./assets/ganadores4.jpeg')} alt='ganadores hackathon' />
-            <img src={require('./assets/4.png')} alt='ganadores hackathon' />
             <img src={require('./assets/6.png')} alt='ganadores hackathon' />
+          </div>
+          <h2>Second place</h2>
+          <div className={styles.ganadoresHack}>
+            <img src={require('./assets/4.png')} alt='ganadores hackathon' />
             <img src={require('./assets/10.png')} alt='ganadores hackathon' />
             <img src={require('./assets/11.png')} alt='ganadores hackathon' />
           </div>
